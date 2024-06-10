@@ -32,7 +32,7 @@ var s1 = function ( sketch ) {
 
     let step = sketch.frameCount % 30;
 
-    lux = sketch.random(800);
+    lux = sketch.random(windowWidth);
 
     sketch.applyMatrix( lux/ step,0, 0, lux / step,400,200);
 
