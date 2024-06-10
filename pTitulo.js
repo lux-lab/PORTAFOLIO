@@ -64,11 +64,11 @@ var s2 = function ( sketch ) {
 
   sketch.setup = () => {
 
-    graficaCanvas = sketch.createCanvas(800,400);
+    graficaCanvas = sketch.createCanvas(windowWidh,200);
     graficaCanvas.position(0,0);
     graficaCanvas.parent('titulo2');
 
-
+s
     sketch.background (255);
     sketch.frameRate(8);
     sketch.rectMode(sketch.CENTER);
