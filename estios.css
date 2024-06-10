@@ -1,0 +1,224 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+  * {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#FFFFFA;
+}
+
+header {
+	width:100%;
+  font-family: Arial, Helvetica, sans-serif, Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+header nav {
+	width:100%;
+	max-width:100%px;
+	margin:0px auto;
+	background:#000000;
+}
+
+.menu_bar {
+	display:none;
+}
+
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+
+header nav ul li {
+	float:left;
+}
+
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+
+header nav ul li span {
+	margin-right:80px;
+}
+
+header nav ul li a:hover {
+	background:#000000;
+}
+
+section {
+	padding:20px;
+}
+
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: fixed;
+	}
+
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+
+	.menu_bar .bt-menu {
+		display:block;
+		padding:30px;
+		background:#000000;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:17px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+
+	.menu_bar span {
+		float:right;
+		font-size:20px;
+	}
+}
+
+.canvas {
+	float: left;
+	margin-top: 10px;
+	display: grid;
+	height: 100%;
+}
+
+.CBitacora {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+
+
+.liMedia{
+	margin-top: 10px;
+	display: grid;
+	height: 100%;
+}
+
+.CMedia {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+
+.liExhibitions{
+	margin-top: 10px;
+	display: grid;
+	height: 100%;
+}
+
+.Cexhibitions {
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+
+h2{
+	font-size:16px;
+	width: 500px;
+	height: max-content;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	color: rgb(0, 0, 0);
+  }
+  
+
+.BIO {
+  font-size:16px;
+  width: 500px;
+  height: max-content;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(0, 0, 0);
+}
+
+.manifesto {
+  font-size:16px;
+  width: 500px;
+  height: 300px;
+  margin-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  color: rgb(149, 149, 149);
+}
+
+img.IM{
+float: inline-start;
+size: 100px;
+margin: 0px;
+padding: 0%;
+}
+
+
+
+
+
+
+
+
+
