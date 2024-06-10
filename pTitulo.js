@@ -64,7 +64,7 @@ var s2 = function ( sketch ) {
 
   sketch.setup = () => {
 
-    graficaCanvas = sketch.createCanvas(windowWidh,200);
+    graficaCanvas = sketch.createCanvas(windowWidh,150);
     graficaCanvas.position(0,0);
     graficaCanvas.parent('titulo2');
 
