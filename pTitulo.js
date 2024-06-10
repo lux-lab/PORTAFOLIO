@@ -1,6 +1,4 @@
-var s1 = function ( sketch ) {
-
-  let lux;
+let lux;
   var graficaCanvas;
   var pwindow;
 
@@ -8,7 +6,7 @@ var s1 = function ( sketch ) {
 
   sketch.setup = () => {
 
-    let graficaCanvas = sketch.createCanvas(windowWidth, 200);
+    let graficaCanvas = sketch.createCanvas(windowWidth,200);
 
     graficaCanvas.parent('titulo1');
 
@@ -28,13 +26,13 @@ var s1 = function ( sketch ) {
 
     sketch.textSize(130)
     sketch.fill(250);
-    sketch.text("LUX",20, windowWidth 20%);
+    sketch.text("LUX",20,140);
 
     let step = sketch.frameCount % 30;
 
     lux = sketch.random(800);
 
-    sketch.applyMatrix( lux/ step,0, 0, lux / step,100,200);
+    sketch.applyMatrix( lux/ step,0, 0, lux / step,400,200);
 
     sketch.fill(250)
     sketch.circle(lux,lux,lux)
@@ -64,7 +62,7 @@ var s2 = function ( sketch ) {
 
   sketch.setup = () => {
 
-    graficaCanvas = sketch.createCanvas(720,200);
+    graficaCanvas = sketch.createCanvas(800,400);
     graficaCanvas.position(0,0);
     graficaCanvas.parent('titulo2');
 
