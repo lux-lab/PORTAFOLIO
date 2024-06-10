@@ -8,7 +8,7 @@ var s1 = function ( sketch ) {
 
   sketch.setup = () => {
 
-    let graficaCanvas = sketch.createCanvas(windowWidth, 400, WEBGL);
+    let graficaCanvas = sketch.createCanvas(windowWidth, 200);
 
     graficaCanvas.parent('titulo1');
 
