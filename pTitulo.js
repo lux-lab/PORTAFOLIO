@@ -1,4 +1,6 @@
-let lux;
+var s1 = function ( sketch ) {
+
+  let lux;
   var graficaCanvas;
   var pwindow;
 
@@ -26,7 +28,7 @@ let lux;
 
     sketch.textSize(130)
     sketch.fill(250);
-    sketch.text("LUX",20,140);
+    sketch.text("LUX",20,140,);
 
     let step = sketch.frameCount % 30;
 
@@ -110,3 +112,4 @@ var myp51 = new p5(s1);{
 var myp52 = new p5(s2);{
 
  };
+
