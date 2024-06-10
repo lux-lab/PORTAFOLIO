@@ -32,9 +32,9 @@ var s1 = function ( sketch ) {
 
     let step = sketch.frameCount % 30;
 
-    lux = sketch.random(800);
+    lux = sketch.random(100);
 
-    sketch.applyMatrix( lux/ step,0, 0, lux / step,400,200);
+    sketch.applyMatrix( lux/ step,0, 0, lux / step,100,200);
 
     sketch.fill(250)
     sketch.circle(lux,lux,lux)
