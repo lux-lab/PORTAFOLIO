@@ -54,16 +54,13 @@ body {
 
 
 .lFirma{
-	margin-top: 10px;
-	display: grid;
-	height: 100%;
+	z-index: 1;
 }
 
 .CFirma {
 	z-index: 1;
-	max-width: 100%;
-	max-height: 100vh;
-	margin: auto;
+	maxWidth: 20%;
+	maxHeight:content;
 }
 
 header {
