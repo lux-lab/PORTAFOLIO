@@ -52,6 +52,20 @@ body {
 	background:#FFFFFA;
 }
 
+
+.lFirma{
+	margin-top: 10px;
+	display: grid;
+	height: 100%;
+}
+
+.CFirma {
+	z-index: 1;
+	max-width: 100%;
+	max-height: 100vh;
+	margin: auto;
+}
+
 header {
 	width:100%;
   font-family: Arial, Helvetica, sans-serif, Impact, 'Arial Narrow Bold', sans-serif;
