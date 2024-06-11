@@ -23,7 +23,7 @@ function preload() {
   shape = loadModel('mandibula.obj', true);
   shape1 = loadModel('concha.obj', true);
   shape2 = loadModel('mar.obj', true); 
-  shape3 = loadModel('bodegon .obj', true); 
+  shape3 = loadModel('bodegon.obj', true); 
  
 
   img = loadImage('mandibula.jpg');
