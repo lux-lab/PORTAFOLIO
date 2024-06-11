@@ -35,6 +35,7 @@ function preload() {
 function setup() {
   Canvas = createCanvas(windowWidth, 400, WEBGL);
   Canvas.position(0, 1750);
+  canvas.estios("z-index","-1");
  
   currentShape = shape;
 
