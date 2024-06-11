@@ -27,9 +27,7 @@ var s1 = function ( sketch ) {
     sketch.fill(0)
     sketch.rect(400,200,lux,400)
 
-    sketch.textSize(130)
-    sketch.fill(250);
-    sketch.text("LUX",20,140,);
+   
 
     let step = sketch.frameCount % 30;
 
