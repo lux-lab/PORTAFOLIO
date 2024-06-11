@@ -10,7 +10,7 @@ var s1 = function ( sketch ) {
 
     let graficaCanvas = sketch.createCanvas(windowWidth,150);
   
-
+    graaficaCanvas.position(0,0);
     graficaCanvas.parent('titulo1');
 
 
