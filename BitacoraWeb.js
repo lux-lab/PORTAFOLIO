@@ -29,7 +29,7 @@ function preload() {
   img = loadImage('mandibula.jpg');
   img1 = loadImage('concha.jpg');
   img2 = loadImage('mar.jpg'); 
-  img3 = loadImage('poly_texture_0001.jpg'); 
+  img3 = loadImage('bodegon.jpg'); 
 }
 
 function setup() {
