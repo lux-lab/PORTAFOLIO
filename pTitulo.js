@@ -9,6 +9,7 @@ var s1 = function ( sketch ) {
   sketch.setup = () => {
 
     let graficaCanvas = sketch.createCanvas(windowWidth,150);
+    graficaCanvas.estios("z-index","-1");
 
     graficaCanvas.parent('titulo1');
 
