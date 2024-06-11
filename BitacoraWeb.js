@@ -23,11 +23,13 @@ function preload() {
   shape = loadModel('mandibula.obj', true);
   shape1 = loadModel('concha.obj', true);
   shape2 = loadModel('mar.obj', true); 
+  shape3 = loadModel('bodegon .obj', true); 
  
 
   img = loadImage('mandibula.jpg');
   img1 = loadImage('concha.jpg');
   img2 = loadImage('mar.jpg'); 
+  img3 = loadImage('poly_texture_0001.jpg'); 
 }
 
 function setup() {
