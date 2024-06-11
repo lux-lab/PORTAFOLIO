@@ -23,6 +23,18 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+
+.lFirma{
+	z-index: 1;
+}
+
+.CFirma {
+	z-index: 1;
+	maxWidth: 20%;
+	maxHeight:100;
+}
+
+
 }
 body {
 	line-height: 1;
@@ -52,16 +64,6 @@ body {
 	background:#FFFFFA;
 }
 
-
-.lFirma{
-	z-index: 1;
-}
-
-.CFirma {
-	z-index: 1;
-	maxWidth: 20%;
-	maxHeight:content;
-}
 
 header {
 	width:100%;
